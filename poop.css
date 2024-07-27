@@ -5,12 +5,12 @@ body {
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
-    background-image: url('image.png'); /* Neon cyberpunk background */
+    background-image: url('image.png'); 
     background-size: cover;
     background-position: center;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding-top: 50px; /* Space for top-centered alignment */
+    padding-top: 50px; 
 }
 
 /* Glassmorphic H1 Title */
@@ -27,10 +27,10 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3);
     margin: 20px;
     width: fit-content;
-    letter-spacing: 5px; /* Adds spacing between letters */
+    letter-spacing: 5px; 
 }
 
-/* Button Styles */
+
 button {
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -38,8 +38,8 @@ button {
     -webkit-backdrop-filter: blur(5px);
     border-radius: 10px;
     color: #ffffff;
-    font-size: 18px; /* Increased font size for better visibility */
-    padding: 15px 25px; /* Increased padding for larger button size */
+    font-size: 18px; 
+    padding: 15px 25px; 
     margin: 10px;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease;
