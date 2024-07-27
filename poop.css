@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-image: url('image.png'); /* Neon cyberpunk background */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding-top: 50px; /* Space for top-centered alignment */
+}
+
+/* Glassmorphic H1 Title */
+.title {
+    font-family: 'Patrick Hand', cursive;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 20px;
+    width: fit-content;
+    letter-spacing: 5px; /* Adds spacing between letters */
+}
+
+/* Button Styles */
+button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px; /* Increased font size for better visibility */
+    padding: 15px 25px; /* Increased padding for larger button size */
+    margin: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1.02);
+}
+
+button#yes {
+    background-color: rgba(46, 204, 113, 0.3); /* Light green tint */
+    border: 1px solid rgba(46, 204, 113, 0.5);
+}
+
+button#no {
+    background-color: rgba(231, 76, 60, 0.3); /* Light red tint */
+    border: 1px solid rgba(231, 76, 60, 0.5);
+}
+
+
+/* Style for the message */
+.message {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+/* Animation for falling and fading out */
+.fall-and-fade {
+    transform: translateY(100vh); /* Move message to bottom of the viewport */
+    opacity: 0; /* Fade out */
+}
+
