@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@ body {
     padding-top: 50px; 
 }
 
-/* Glassmorphic H1 Title */
+/*finna try new shi right here*/
 .title {
     font-family: 'Patrick Hand', cursive;
     color: #ffffff;
@@ -55,17 +55,17 @@ button:active {
 }
 
 button#yes {
-    background-color: rgba(46, 204, 113, 0.3); /* Light green tint */
+    background-color: rgba(46, 204, 113, 0.3);
     border: 1px solid rgba(46, 204, 113, 0.5);
 }
 
 button#no {
-    background-color: rgba(231, 76, 60, 0.3); /* Light red tint */
+    background-color: rgba(231, 76, 60, 0.3); 
     border: 1px solid rgba(231, 76, 60, 0.5);
 }
 
 
-/* Style for the message */
+
 .message {
     position: absolute;
     background: rgba(0, 0, 0, 0.7);
@@ -77,9 +77,8 @@ button#no {
     transition: opacity 1s ease, transform 1s ease;
 }
 
-/* Animation for falling and fading out */
 .fall-and-fade {
-    transform: translateY(100vh); /* Move message to bottom of the viewport */
-    opacity: 0; /* Fade out */
+    transform: translateY(100vh); 
+    opacity: 0; 
 }
 
